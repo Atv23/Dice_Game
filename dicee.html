@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Dice Game 🎲</h1>
+      <div class="points">
+        <h3>Points</h3>
+        <table cellspacing="20" border="1" class="tbl">
+          <thead>
+            <tr>
+              <td>
+                Player 1
+              </td>
+              <td>
+                Player 2
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <td id="player1">
+              0
+            </td>
+            <td id="player2">
+              0
+            </td>
+          </tbody>
+        </table>
+      </div>
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="/images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="/images/dice6.png">
+      </div>
+
+    </div>
+    <div class="play">
+      <button class="playbtn" onclick="myfunc()">Play</button>
+    </div>
+    <footer>
+      <p class="ftr">©️ Developed By Atharva </p>
+    </footer>
+
+<script src="/index.js"></script>
+  </body>
+</html>

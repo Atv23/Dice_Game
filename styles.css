@@ -1,0 +1,63 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #000000;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #1de9b6;
+}
+
+p {
+  font-size: 2rem;
+  color: #1de9b6;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+.points{
+  border: solid;
+  margin-top:50px;
+  border-color:rgb(117, 114, 114);
+  color:#1de9b6;
+  display: inline-block;
+  float: right;
+  font-size: 2rem;
+}
+.play{
+
+  text-align: center;
+}
+.playbtn{
+  width: 8%;
+  margin-top: 5%;
+  font-size: 40px;
+  border-radius: 10px;
+  background-color: #1de9b6;
+}
+.playbtn:hover{
+  border-width: 5px;
+  border-color:aliceblue;
+  color:aliceblue;
+}
+.ftr{
+  color: #1de9b6;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+}
